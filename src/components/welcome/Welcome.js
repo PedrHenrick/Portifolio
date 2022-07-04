@@ -1,8 +1,13 @@
 import React from "react";
+import { PersonalInfo } from '../../styles'; 
 
 const Welcome = () => {
   return (
-    <h1>Welcome</h1>
+    <section>
+      <PersonalInfo>
+        <h1>Lalalala</h1>
+      </PersonalInfo>
+    </section>
   );
 };
 
