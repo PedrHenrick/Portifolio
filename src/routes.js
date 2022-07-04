@@ -9,6 +9,7 @@ const MainRoutes = () => {
   return (
     <Routes>
       <Route path="/" element={ <Dashboard /> } />
+      <Route path="*" element={ <h1>Not Found</h1> } />
     </Routes>
   )
 };
