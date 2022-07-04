@@ -1,8 +1,11 @@
 import React from "react";
+import Welcome from "../components/welcome/Welcome";
 
 const Dashboard = () => {
   return (
-    <h1>Hello world</h1>
+    <main>
+      <Welcome />
+    </main>
   );
 };
 
