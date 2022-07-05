@@ -1,5 +1,9 @@
 import styled, { keyframes } from "styled-components";
 
+export const SectionWelcome = styled.section`
+  display: flex;
+`;
+
 export const PersonalInfo = styled.section`
   position: absolute;
   width: 100%;
