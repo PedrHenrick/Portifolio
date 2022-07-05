@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
-import { PersonalInfo, SectionWelcome } from '../../styles'; 
-import BackgroundAnimate from "../BackgroundAnimate";
+import { PersonalInfo, SectionWelcome,  } from '../../styles'; 
+import BackgroundAnimate from "./BackgroundAnimate";
 
 const arrayWithName = [
   'M',
