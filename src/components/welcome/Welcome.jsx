@@ -1,7 +1,7 @@
 import React from 'react';
 import { PersonalInfo, SectionWelcome } from '../../styles';
-import BackgroundAnimate from './BackgroundAnimate';
-import InitialMessage from './InitialMessage';
+import BackgroundAnimate from './backgound/BackgroundAnimate';
+import InitialMessage from './initialText/InitialText';
 
 function Welcome() {
   return (

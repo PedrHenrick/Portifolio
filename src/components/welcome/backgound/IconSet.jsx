@@ -18,7 +18,7 @@ import {
   GrReactjs, GrNode, GrMysql, GrDocker,
 } from 'react-icons/gr';
 import { DiBootstrap, DiGit, DiGithubBadge } from 'react-icons/di';
-import { ConjuntIcons, Icons } from '../../styles';
+import { ConjuntIcons, Icons } from '../../../styles';
 
 export default function IconSet() {
   return (

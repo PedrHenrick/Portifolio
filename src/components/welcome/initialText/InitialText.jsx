@@ -27,7 +27,7 @@ const arrayWithName = [
   'Henrick!',
 ];
 
-export default function InitialMessage() {
+export default function InitialText() {
   const [lastName, setLastName] = useState('');
   const [modify] = useState(false);
 
@@ -47,6 +47,7 @@ export default function InitialMessage() {
       <h3>Bem Vindo! Me chamo...</h3>
       <h2>
         Pedro
+        { ' ' }
         { lastName }
       </h2>
       <h3>Estudante de desenvolvimento web na trybe!</h3>
