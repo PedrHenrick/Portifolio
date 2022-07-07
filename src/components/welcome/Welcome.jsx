@@ -1,5 +1,5 @@
 import React from 'react';
-import { PersonalInfo, SectionWelcome } from '../../styles';
+import { PersonalInfo, SectionWelcome } from './welcomeIndex';
 import BackgroundAnimate from './backgound/BackgroundAnimate';
 import InitialMessage from './initialText/InitialText';
 
