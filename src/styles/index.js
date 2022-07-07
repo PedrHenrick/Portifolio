@@ -16,7 +16,7 @@ export const PersonalInfo = styled.section`
   clip-path: polygon(0% 0%, 50% 0, 65% 100%, 0% 100%);
 `;
 
-export const Background = styled.body`
+export const Background = styled.section`
   position: relative;
   width: 100%;
   height: 100vh;
