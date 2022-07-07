@@ -1,4 +1,4 @@
-import styled, { keyframes } from "styled-components";
+import styled, { keyframes } from 'styled-components';
 
 export const SectionWelcome = styled.section`
   display: flex;
@@ -66,16 +66,15 @@ export const ConjuntIcons = styled.div`
   }
 `;
 
-export const Icons = styled.ol`
-  display: inline;
+export const Icons = styled.i`
   color: rgba(0, 0, 0, 0.5);
   transition: 1s;
-  padding: 0 6px;
+  padding: 0 5px;
   user-select: none;
   cursor:default;
   &&:hover {
     transition: 0s;
     color: #0f0;
-    box-shadow: 0px 0px 120px #0f0;
+    filter: drop-shadow(0px 0px 20px #0f0);
   }
 `;
