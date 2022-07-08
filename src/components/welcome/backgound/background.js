@@ -58,7 +58,7 @@ export const Icons = styled.i`
   cursor:default;
   &&:hover {
     transition: 0s;
-    color: #0f0;
-    filter: drop-shadow(0px 0px 20px #0f0);
+    color: #32CD32;
+    filter: drop-shadow(0px 0px 20px #32CD32);
   }
 `;
