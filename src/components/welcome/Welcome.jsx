@@ -1,7 +1,8 @@
 import React from 'react';
 import { PersonalInfo, SectionWelcome } from './welcomeIndex';
 import BackgroundAnimate from './backgound/BackgroundAnimate';
-import InitialMessage from './initialText/InitialText';
+import InitialText from './initialText/InitialText.jsx';
+import NavigationBar from '../navigationBar/NavigationBar.jsx';
 
 function Welcome() {
   return (
@@ -9,7 +10,8 @@ function Welcome() {
       <SectionWelcome>
         <BackgroundAnimate />
         <PersonalInfo>
-          <InitialMessage />
+          <NavigationBar />
+          <InitialText />
         </PersonalInfo>
       </SectionWelcome>
     </section>
